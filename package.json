@@ -1,0 +1,32 @@
+{
+  "name": "tectest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon --config ./nodemon.json .",
+    "build:ts": "tsc",
+    "build": "npm run build:ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "nodejs-randomnames": "^1.0.1",
+    "project-name-generator": "^2.1.7",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.3",
+    "@types/request-promise-native": "^1.0.17",
+    "gulp": "^4.0.2",
+    "nodemon": "^1.19.4",
+    "typescript": "^3.6.4"
+  }
+}
